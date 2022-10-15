@@ -1,0 +1,22 @@
+.BananaModal{
+    display:flex;
+    align-items:center;
+    left:40%;
+    right:40%;
+    top:25%;
+    position:fixed;
+    /* border:1px solid #fff;
+    box-shadow:1px 1px 1px#fff; */
+    margin-top:20px;
+    padding:16px;
+    transition: all 1s ease-out;
+    z-index:100;
+}
+
+@media(max-width: 541px) {
+    .BananaModal {
+        left: 10%;
+        right: 10%;
+        padding: 16px 20px;
+    }
+}

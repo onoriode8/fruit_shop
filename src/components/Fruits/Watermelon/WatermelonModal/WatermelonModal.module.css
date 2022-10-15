@@ -1,0 +1,23 @@
+.watermelonModal {
+   display: flex;
+   position: fixed;
+   left: 40%;
+   right: 40%;
+   top: 20%;
+   border: 1px solid rgb(163, 163, 163);
+   border-radius: 1px 1px 1px black;
+   box-sizing: border-box;
+   align-items: center;
+   padding: 16px;
+   margin: 5px; 
+   background-color: #fff;
+   z-index: 100;
+   transition: all 0.9s ease-out;
+}
+
+@media(max-width: 541px) {
+   .watermelonModal {
+       left: 15%;
+       right: 15%;
+   } 
+}

@@ -1,0 +1,26 @@
+.strawberryModal {
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 16px;
+    left: 40%;
+    right: 40%;
+    top: 20%;
+    transition: all 0.9s ease-out;
+}
+
+@media(max-width: 541px) {
+    .strawberryModal {
+        left: 15%;
+        right: 15%;
+    } 
+} 
+
+/* @media(min-width: 542px) {
+    .strawberryModal {
+        left: 15%;
+        right: 15%;
+    }
+} */

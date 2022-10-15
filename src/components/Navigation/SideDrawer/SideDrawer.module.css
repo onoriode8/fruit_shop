@@ -1,0 +1,39 @@
+.sideDrawer {
+    width: 85%;
+    height: 100%;
+    position: fixed;
+    z-index: 200;
+    background-color: brown;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease-out;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.close {
+    transform: translateX(-100vh);
+}
+
+@media (min-width: 500px) {
+    .sideDrawer {
+        display: none;
+    }
+}
+
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 180;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+/* @media (min-width: 500px) {
+  .Nav {
+        
+  }
+} */

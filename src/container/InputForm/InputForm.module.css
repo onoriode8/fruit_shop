@@ -1,0 +1,124 @@
+
+.inputForm {
+    margin-top: 200px;
+    border: 1px solid wheat;
+    background-color: wheat;
+    padding: 26px 35px;
+    box-sizing: border-box;
+    text-align: center;
+    position: fixed;
+    left: 40%;
+    right: 40%;
+    z-index: 80;
+}
+
+@media (max-width: 500px) {
+    .inputForm {
+        margin-top: 200px;
+        border: 1px solid wheat;
+        background-color: wheat;
+        padding: 26px 35px;
+        box-sizing: border-box;
+        text-align: center;
+        position: fixed;
+        left: 20%;
+        right: 20%;
+    }
+    .name {
+        width: 60%;
+        margin: 5px 3px;
+    }
+    
+    .email {
+        width: 60%;
+        margin: 5px 3px;
+    }
+    
+    .order {
+        margin: 5px 5px;
+    }
+    
+    .cancel {
+        margin: 5px 5px;
+    }
+}
+
+@media (min-width: 500px) {
+    .inputForm {
+        margin-top: 200px;
+        border: 1px solid wheat;
+        background-color: wheat;
+        padding: 26px 35px;
+        box-sizing: border-box;
+        text-align: center;
+        position: fixed;
+        left: 20%;
+        right: 20%;
+    }
+    .name {
+        width: 50%;
+        margin: 5px 3px;
+    }
+    
+    .email {
+        width: 50%;
+        margin: 5px 3px;
+    }
+    
+    .order {
+        margin: 5px 5px;
+    }
+    
+    .cancel {
+        margin: 5px 5px;
+    }
+}
+
+@media (max-width: 270) {
+    .inputForm {
+        margin-top: 200px;
+        border: 1px solid wheat;
+        background-color: wheat;
+        padding: 26px 35px;
+        box-sizing: border-box;
+        text-align: center;
+        position: fixed;
+        left: 8%;
+        right: 8%;
+    }
+    .name {
+        width: 30%;
+        margin: 5px 3px;
+    }
+    
+    .email {
+        width: 30%;
+        margin: 5px 3px;
+    }
+    
+    .order {
+        margin: 5px 5px;
+    }
+    
+    .cancel {
+        margin: 5px 5px;
+    }
+}
+
+.name {
+    width: 100%;
+    margin: 5px 3px;
+}
+
+.email {
+    width: 100%;
+    margin: 5px 3px;
+}
+
+.order {
+    margin: 5px 5px;
+}
+
+.cancel {
+    margin: 5px 5px;
+}

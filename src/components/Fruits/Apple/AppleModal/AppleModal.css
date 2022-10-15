@@ -1,0 +1,23 @@
+.appleModal {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid #fff;
+        box-shadow: 1px 1px 1px #fff;
+        left: 35%;
+        right: 35%;
+        top: 30%;
+        z-index: 100;
+        position: fixed;
+        padding: 1px;
+        transition: all 1.5s;
+        opacity: 1;
+  }
+
+@media(max-width: 541px) {
+     .appleModal {
+        left: 20%;
+        right: 20%;
+        padding: 10px 16px;
+     }
+}

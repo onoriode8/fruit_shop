@@ -1,0 +1,51 @@
+img{
+    width:40%;
+    height:40%;
+}
+
+.stuff{
+    margin-top:5%;
+    left: 20%;
+    right: 10%;
+    display:flex;
+    position: absolute;
+    z-index: 0;
+    flex-wrap: wrap;
+}
+
+button{
+    cursor:pointer;
+    color:whitesmoke;
+    background-color: goldenrod;
+    font-size:1.1em;
+}
+
+@media (max-width: 600px) {
+    .stuff {
+        overflow-y: scroll;
+    }
+}
+
+@media(max-width: 414px) {
+    .stuff {
+        flex-wrap: wrap;
+        left: 0%;
+        right: 0%;
+    }
+}
+
+@media(max-width: 360px) {
+    .stuff {
+        flex-wrap: wrap;
+        left: 30%;
+        right: 0%;
+    }
+}
+
+@media(max-width: 280px) {
+    .stuff {
+        flex-wrap: wrap;
+        left: 23%;
+        right: 0%;
+    }
+}

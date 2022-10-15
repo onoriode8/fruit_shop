@@ -1,0 +1,20 @@
+.GettingFruits {
+    text-align: center;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    left: 40%;
+    right: 40%;
+    position: absolute;
+    transition: 0.5s ease-out;
+    background-color: #ccc;
+}
+
+.open {
+    transform: translateY(0);
+}
+
+.close {
+    transform: translateY(-100vh);
+}
+

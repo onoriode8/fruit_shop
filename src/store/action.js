@@ -1,0 +1,7 @@
+export const ORDER_BANANA = "ORDER_BANANA";
+export const ORDER_APPLE = "ORDER_APPLE";
+export const ORDER_ORANGE = "ORDER_ORANGE";
+export const ORDER_WATERMELON = "ORDER_WATERMELON";
+export const ORDER_STRAWBERRY = "ORDER_STRAWBERRY";
+export const CONTINUE = "CONTINUE";
+export const CANCEL = "CANCEL";
